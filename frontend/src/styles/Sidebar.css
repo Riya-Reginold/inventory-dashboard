@@ -1,0 +1,66 @@
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background: #111827;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #1f2937;
+}
+
+.logo {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+  border-bottom: 1px solid #1f2937;
+}
+
+.logo h2 {
+  font-size: 22px;
+}
+
+.logo-icon {
+  color: #3b82f6;
+}
+
+.menu-section {
+  padding: 20px 0;
+}
+
+.menu-title {
+  color: #6b7280;
+  font-size: 12px;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.menu-section ul {
+  list-style: none;
+}
+
+.menu-section li {
+  padding: 14px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-section li:hover {
+  background: #1f2937;
+}
+
+.menu-section li.active {
+  background: #0b3a70;
+  color: #60a5fa;
+  border-left: 3px solid #3b82f6;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 20px;
+  font-size: 12px;
+  color: #6b7280;
+  border-top: 1px solid #1f2937;
+}

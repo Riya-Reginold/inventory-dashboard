@@ -35,12 +35,6 @@ A full-stack inventory management application built with React, Node.js, Express
 
 ## Installation
 
-### Clone the repository
-
-```bash
-git clone https://github.com/yourusername/product-inventory-dashboard.git
-cd product-inventory-dashboard
-```
 
 ### Install frontend dependencies
 
